@@ -48,9 +48,35 @@
     </fieldset>
     <fieldset>
         <legend>Ratings</legend>
+        
+        <!-- service comments -->
         <label for="service">How was the service?</label>
-        <select name="service" id="service" option="Poor" option="Satisfactory"></select>
+        <select name="service" id="service">
+        <option value="poor">Poor</option>
+        <option value="satisfactory">Satisfactory</option>
+        <option value="good">Good</option>
+        <option value="very-good">Very Good</option>
+        <option value="excellent">Excellent</option>
+        <option selected value="excellent">Excellent</option>
+        </select>
+        
+        <!-- food comments -->
+        <label for="food">How was the food?</label>
+        <select name="food" id="food">
+            <option value="poor">Poor</option>
+            <option value="satisfactory">Satisfactory</option>
+            <option value="good">Good</option>
+            <option value="very-good">Very Good</option>
+            <option value="excellent">Excellent</option>
+        <option selected value="excellent">Excellent</option>
+        </select>
     </fieldset>
+   <!-- other comments -->
+        <label for="comments" textarea="">Other Comments?
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+        </label>
     </form>
    </main>
 
