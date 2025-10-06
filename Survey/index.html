@@ -6,11 +6,73 @@
     <title>Survey Form</title>
 </head>
 <body>
- <h1 id="title">Welcome to the survey capital of the web</h1>   
- <p id="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In pariatur aliquam excepturi aperiam. Ullam natus expedita, porro at optio unde nisi non, reiciendis voluptatum quidem vero ratione, maiores esse nulla!</p>
- <form action="survey-form">
-    <input type="name" type="text" required #survey-form>
+ <h1 id="title">Welcome to the Monterey Hotel customer service form</h1>   
+ <p id="description">Please fill out our forms to grade how we did during your stay.</p>
+ <form id="survey-form">
+    <!-- name input and label elements -->
+
+    <label name="name-label" id="name-label">Name:</label>
+    <input id="name" type="text" placeholder="Enter your name" required>
+<br>
+    <!-- email input and label elements -->
+
+    <label name="email-label" id="email-label">Email:</label>
+    <input type="email" name="email" id="email" required placeholder="Enter your email">
+<br>
+    <!-- number input and label elements -->
+
+    <label id="number-label" id="number-label"> Age: </label>
+    <input id="number" type="number" min="-250" max="250" placeholder="Enter age">
+    <br>
+    <br>
+    <!-- dropdown menu -->
+     <label for="dropdown">What was your favorite type of food?</label>
+     <select id="dropdown" >
+        <option value="fries">fries </option>
+        <option value="hamburger">hamburger</option>
+        <option value="soda">soda</option>
+     </select>
+ 
+     <br>
+
+     <!-- radio menu/dropdown buttons -->
+      <label for="test">Would you recommend our hotel?</label>
+      <label for="hotel">No</label>
+      <input type="radio" value="buffet" name="hotel">
+      <label for="hotel">Yes</label>
+      <input type="radio" value="hotel" name="hotel">
+      <br>
+      <label for="buffet">Would you recommend our buffet to anyone?</label>
+      <label for="buffet">No</label>
+      <input type="radio" value="buffet" name="buffet">
+      <label for="buffet">Yes</label>
+      <input type="radio" value="buffet" name="buffet">
+<br><br> 
+      <!-- checkboxes menu+form -->
+       <label for="checkbox">What was an area that we could've improved on?</label>
+       <br>
+       <label for="management">management</label>
+       <input type="checkbox" value="management">
+       
+       <label for="room cleanliness">cleanliness</label>
+       <input type="checkbox" value="room cleanliness">
+       
+       <label for="games">resort activites for guests</label>
+       <input type="checkbox" value="games">
+
+       <label for="wait">wait times</label>
+       <input type="checkbox" value="wait">
+
+       <br><br>
+       <!-- textarea and button  -->
+        
+        <label for="submit">Please tell us any additional areas we could've improved on for your stay: </label>
+        <textarea>
+            
+        </textarea>
+        <br>
+        <button id="submit" type="submit">Press submit </button>
+
  </form>
- <!-- some text to write in the description -->
 </body>
 </html>
