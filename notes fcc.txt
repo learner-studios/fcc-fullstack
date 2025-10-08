@@ -1,0 +1,19 @@
+W3C guidlines on accessibility 
+
+POUR
+
+Perceivable
+Operable
+Understandable
+Robust
+
+WAVE accessibility tool to check URL and website
+
+WAI-ARIA - Web accessibility initiative - accessible rich internet applicaitons
+    There are six main roles for ARIA 
+     - Document structure
+     - Widget roles
+     - Landmark roles
+     - Live region roles
+     - Window roles
+     - Abstract roles
