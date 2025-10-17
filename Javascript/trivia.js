@@ -46,7 +46,6 @@ console.log(codingFact);
 console.log("It was fun sharing these facts with you.  Goodbye! - " + botName + " from " + botLocation+ ".");
 //assign codingFact a new fact and say an interesting fact about the favoriteLanguage variable   * coding fact will be outputted to the console three times.
 
-
 const botName = "Murray"; 
 const botLocation = "Anaheim, CA"; 
 
@@ -59,7 +58,7 @@ codingFact = "Yukihiro 'Matz' Matsumoto";
 console.log("Hello! I'm your coding fun fact guide!");
 console.log("My name is " + botName + " and I live on " + botLocation + ".");
 console.log("My favorite programming language is " + favoriteLanguage + "."); 
-console.log("The inventor " + codingFact + " invented " + favoriteLanguage + ".");
+//console.log("The inventor " + codingFact + " invented " + favoriteLanguage + ".");
 
 
 
@@ -68,10 +67,9 @@ codingFact = favoriteLanguage + " was invented in 1995";
 console.log(codingFact);
 
 codingFact = favoriteLanguage + " is a general-purpose, object-oriented programming language known for its simplicity, flexibility, and productivity. It was created by Yukihiro Matsumoto in 1995 with the goal of combining the best features of other programming languages like Perl, Smalltalk, and Lisp. Ruby is widely used across various domains due to its versatility and developer-friendly syntax.";
-
 console.log(codingFact);
 
 codingFact = favoriteLanguage + " is still popular in the world, particularly in the context of web development, especially through Ruby on Rails (RoR).";
 console.log(codingFact);
 
-console.log("It was fun sharing these facts with you.  Goodbye! - " + botName + " from " + botLocation+ ".");
+console.log("It was fun sharing these facts with you. Goodbye! - " + botName + " from " + botLocation + ".");
