@@ -61,4 +61,4 @@ let singleWordSoupBowl = singleWordSoup.concat(singleWord2, singleWord3);
 let pileOfWordsReplace = pileOfWords.replace("Simpsons", singleWordSoupBowl)
 console.log(pileOfWordsReplace);
 
-
+//type coercion, is when you tryand do an operation with a string statement and a number but the JS interpreter treats them both as a string, converts one data type to the same data type.
