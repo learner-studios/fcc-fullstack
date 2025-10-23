@@ -1,0 +1,6 @@
+I found the following typos on fcc Full Stack program 
+
+JS 
+        -> Working with Conditional Login and Math Methods "Truthy" // looks like it is an applicable word.
+
+        
