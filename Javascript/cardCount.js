@@ -5,7 +5,7 @@ let count = 0;
 
 function cc(card) {
         // setup the switch statement
-        for (let turn = 0; turn <= 100; turn++) {
+        
             // it was a good start need to impliment a control mechanism some more.
             switch (card) {
             case 2:
@@ -27,9 +27,17 @@ function cc(card) {
             default:
                 console.log("Please try again!");
                 break;
-        }  
         }
-    
+        if (Math.sign(count)===1 && console.log("Bet") ) {
+            count += 1;
+            return console.log(count, "Bet");
+        }
+        else if(Math.sign(count)=== 0){
+            return console.log(0, "Hold");
+        }
+        else if (Math.sign(count === -1)) {
+            count -= 1;
+            return console.log(count, "Hold");
+        }
 }
-cc("A");
-cc(6);
+cc(2,3,4,5,6);
