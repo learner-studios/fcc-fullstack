@@ -15,6 +15,6 @@ function maskEmail(email) {
   return maskedUsername + '@' + domain;
 }
 
-let email = "myEmail@email.com";
+let email = "doejsfw;akdjgagowdasdg@gmail.com";
 
 console.log(maskEmail(email));
