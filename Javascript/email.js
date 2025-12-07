@@ -15,7 +15,7 @@
 // maskEmail("doej2546@gmail.com");
 
 let email;
-
+//this is something that is being written in vscode right now 
 function maskEmail(email){
     if(email.indexOf(0) && email.length != "@")
     {
