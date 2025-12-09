@@ -9,4 +9,3 @@ var nameTotalLength = userName.length;
 console.log(nameTotalLength);
 
 console.log(`Hello ${userName}, welcome to the world of JavaScript!`);
-//mdn Math.min;
