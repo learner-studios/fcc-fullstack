@@ -1,0 +1,13 @@
+Global Variables: count = 0
+
+Input: cardCount (card)
+Output: is the sum of the values for the cards that are present
+
+Constraints: 
+
+Data types: card values 2-10 are integers/numbers
+rest of the card values "K - A" are string values
+
+Procedure: 
+
+function cardCount should modify the sum when 
