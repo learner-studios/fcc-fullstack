@@ -1,0 +1,8 @@
+these are some libraries that I can use to do the Snowflake algorithm for JS. 
+
+Turtle clone: https://github.com/shlomil/turtlejs
+
+Creative coding library: https://p5js.org/
+
+Another coding library (might go with this): http://paperjs.org/
+
