@@ -1,16 +1,27 @@
-var year ;
 function isLeapYear(year){
-    if (year % 4 ===0){
+    if ((year % 400 === 0)){
         return `${year} is a leap year`;
-    }   
-    else if (year % 100 != 0){
+    }
+    else if ((year % 100 === 0)){
         return `${year} is not a leap year`;
     }
-    else if (year % 400 === 0){
+    else if  ((year %4 === 0)){
         return `${year} is a leap year`;
- }
+    }
+    else {
+        return `Sorry you're ${year} needs to be recalculated again`;   
+    }
 }
 
-console.log(isLeapYear(2024));
-console.log(isLeapYear(2000));
-console.log(isLeapYear(1900));
+let year = 2024;
+let result = isLeapYear(year);
+console.log(result);
+
+
+let year2 = 2000;   
+let result2 = isLeapYear(year2);    
+console.log(result2);   
+
+let year3 = 1900;   
+let result3 = isLeapYear(year3);    
+console.log(result3);   
