@@ -67,7 +67,6 @@ function showLunchMenu(lunches){
         return `Menu items: ${lunches.join(",")}`;
     }
 }
-}
 
 
 // Testing area: 
