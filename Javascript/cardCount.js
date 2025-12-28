@@ -3,7 +3,7 @@ let count = 0;
 
 // 2. build function with switch statement
 
-function cc(card) {
+function cardCounter(card) {
         // setup the switch statement
         
             // it was a good start need to impliment a control mechanism some more.
@@ -14,7 +14,12 @@ function cc(card) {
             case 5:
             case 6:
                 count++;
-                console.log(count, "Bet");
+            break;
+            case 7:
+            case 8:
+            case 9:
+                // do nothing, don't output anything to the console
+                count;
             break;
             case 10:
             case "K":
@@ -22,22 +27,43 @@ function cc(card) {
             case "J":
             case "A":
                 count--;
-                console.log(count, "Hold");
             break;
-            default:
-                console.log("Please try again!");
-                break;
         }
-        if (Math.sign(count)===1 && console.log("Bet") ) {
-            count += 1;
-            return console.log(count, "Bet");
+
+        if (count > 0) { 
+            return count + " Bet";
         }
-        else if(Math.sign(count)=== 0){
-            return console.log(0, "Hold");
+        else if (count === 0) {
+            return 0 + " Hold";
         }
-        else if (Math.sign(count === -1)) {
-            count -= 1;
-            return console.log(count, "Hold");
+        else {
+            return count + " Hold";
         }
 }
-cc(2,3,4,5,6);
+
+console.log(cardCounter(2,2,10));
+console.log(cardCounter(10,"J","Q","K","A"));   
+
+// cardCounter(2);
+// cardCounter(3);
+// cardCounter(4);
+// cardCounter(5);
+// cardCounter(6);
+
+// cardCounter(7);
+// cardCounter(8);
+// cardCounter(9);
+// cardCounter('A');
+// cardCounter(2);
+// cardCounter(3);
+// cardCounter(4);
+// cardCounter(5);
+// cardCounter(6);
+// cardCounter(7);    
+// cardCounter(8);
+// cardCounter(9);
+// cardCounter(10);    
+// cardCounter('K');
+// cardCounter('Q');
+// cardCounter('J');   
+// cardCounter('A');   
