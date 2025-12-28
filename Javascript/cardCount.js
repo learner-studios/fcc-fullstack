@@ -42,8 +42,6 @@ function cardCounter(card) {
 }
 
 console.log(cardCounter(2,2,10));
-console.log(cardCounter(10,"J","Q","K","A"));   
-
 // cardCounter(2);
 // cardCounter(3);
 // cardCounter(4);
