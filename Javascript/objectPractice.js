@@ -51,4 +51,3 @@ const user = {
 
 const jsonString = JSON.stringify(user);
 console.log(jsonString); //the other JSON method is JSON.parse 
-//mdn JSON;
