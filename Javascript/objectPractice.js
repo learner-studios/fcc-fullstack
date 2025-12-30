@@ -42,3 +42,13 @@ console.log(toObject(true));
 console.log(toObject([1,2,3])); 
 console.log(toObject("object"));
 console.log(toObject(undefined));   
+
+const user = {
+  name: "John",
+  age: 30,
+  isAdmin: true
+};
+
+const jsonString = JSON.stringify(user);
+console.log(jsonString); //the other JSON method is JSON.parse 
+//mdn JSON;
