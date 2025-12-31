@@ -25,6 +25,7 @@ const recipe3 = {
     difficultyLevel: "",
 }
 
+// let recipe1TotalIngredients = 
 // need to practice accessing the objects
 // let recipe1Name = recipe1.name;
 // let recipe2CookingTime = recipe2.cookingTime;
@@ -58,4 +59,19 @@ function getDifficultyLevel(cookingTime){
     }
 }
 
-console.log
+
+
+let recipeTotalIngredients = getTotalIngredients(recipe1.ingredients, recipe2.ingredients, recipe3.ingredients);
+let difficultyLevel = getDifficultyLevel(recipe1.cookingTime);
+let difficultyLevel2 = getDifficultyLevel(recipe2.cookingTime);
+let difficultyLevel3 = getDifficultyLevel(recipe3.cookingTime);
+
+// Set recipe1 properties
+recipe1.totalIngredients = getTotalIngredients(recipe1.ingredients);
+recipe1.difficultyLevel = getDifficultyLevel(recipe1.cookingTime);
+
+console.log(recipeTotalIngredients);
+console.log(difficultyLevel, difficultyLevel2, difficultyLevel3);
+
+//log the array to the console.
+console.log(recipes);  
