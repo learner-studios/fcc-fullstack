@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="SEe4apbIjc913WwcZeT9">
+    <mxGraphModel dx="1639" dy="901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BP2cLD-ltsNOkxJeuD0w-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Biogrpahy (container)" vertex="1">
+          <mxGeometry height="780" width="750" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BP2cLD-ltsNOkxJeuD0w-9" parent="BP2cLD-ltsNOkxJeuD0w-2" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 24px;&quot;&gt;Paragraph&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="190" width="420" x="140" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BP2cLD-ltsNOkxJeuD0w-10" parent="BP2cLD-ltsNOkxJeuD0w-2" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 24px;&quot;&gt;Paragraph&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="190" width="420" x="140" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="BP2cLD-ltsNOkxJeuD0w-11" parent="BP2cLD-ltsNOkxJeuD0w-2" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 24px;&quot;&gt;Paragraph&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 12px; font-weight: normal;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/span&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="190" width="420" x="140" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="BP2cLD-ltsNOkxJeuD0w-14" edge="1" parent="BP2cLD-ltsNOkxJeuD0w-2" source="BP2cLD-ltsNOkxJeuD0w-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BP2cLD-ltsNOkxJeuD0w-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="190" width="430" x="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BP2cLD-ltsNOkxJeuD0w-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="" vertex="1">
+          <mxGeometry height="60" width="30" x="420" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BP2cLD-ltsNOkxJeuD0w-8" edge="1" parent="1" source="BP2cLD-ltsNOkxJeuD0w-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="BP2cLD-ltsNOkxJeuD0w-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="110" />
+              <mxPoint x="410" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BP2cLD-ltsNOkxJeuD0w-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Opening Scene animation .gif" vertex="1">
+          <mxGeometry height="30" width="60" x="395" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BP2cLD-ltsNOkxJeuD0w-7" edge="1" parent="1" source="BP2cLD-ltsNOkxJeuD0w-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.65;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" target="BP2cLD-ltsNOkxJeuD0w-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="434" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BP2cLD-ltsNOkxJeuD0w-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CSS gradient&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;#a41d11 to&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 12px;&quot;&gt;#040712&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="90" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="BP2cLD-ltsNOkxJeuD0w-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Padding: about 15-20% on all sides" vertex="1">
+          <mxGeometry height="40" width="40" x="30" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
