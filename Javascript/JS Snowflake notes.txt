@@ -6,3 +6,6 @@ Creative coding library: https://p5js.org/
 
 Another coding library (might go with this): http://paperjs.org/
 
+these are the following PC's that I have PaperJS installed: 
+
+My Mac (added the node_modules to the JavaScript folder)
