@@ -8,7 +8,7 @@ let questions = [
 {
 "category": "Studio Ghibli Films",
 "question": "In 'My Neighbor Totoro', what is the name of the large, friendly forest spirit?",
-"choices": ["A. Tora Tora Tora", "B. King Totoro", "C. Forest Guardian  "],
+"choices": ["A. Tora Tora Tora", "B. King Totoro", "C. Forest Guardian"],
 "answer": "B. King Totoro",
 },
 {
@@ -18,39 +18,38 @@ let questions = [
 "answer": "A. Aang",
 },
 {
-    "category": "Apothecary Diaries",
+"category": "Apothecary Diaries",
 "question": "What is the profession of the main character, Maomao, in 'Apothecary Diaries'?",
 "choices": ["A. Apothecary", "B. Doctor", "C. Nurse"],
 "answer": "A. Apothecary",
 },
 {
-    "category": "Demon Slayer",
+"category": "Demon Slayer",
 "question": "What is the name of the main protagonist in 'Demon Slayer'?",
 "choices": ["A. Zenitsu", "B. Tanjiro Kamado", "C. Inosuke Hashibira"],
 "answer": "B. Tanjiro Kamado",
 }
 ];
 
-
-//function takes random questions from the array
 function getRandomQuestion(questions){
-    let arrayChoice = Math.floor(Math.random()*questions.length);
+    let arrayChoice = Math.floor(Math.random() * questions.length);
     return questions[arrayChoice];
 }
 
 function getRandomComputerChoice(choices){
-  let computerArrayChoice = Math.floor(Math.random()*choices.length);
+  let computerArrayChoice = Math.floor(Math.random() * choices.length);
   return choices[computerArrayChoice];
 }
 
-function getResults(Obj1, Obj2){
-    if(Obj2 === Obj1.answer){
-      return "The computer's choice is correct!"}
+function getResults(questionObj, computerChoice){
+    if(computerChoice === questionObj.answer){
+      return "The computer's choice is correct!";
+    }
     else {
-      return `The computer's choice is wrong. the correct answer is: ${Obj1.answer}`;
+      return `The computer's choice is wrong. The correct answer is: ${questionObj.answer}`;
     }
 }
+
 console.log(getRandomQuestion(questions));
 console.log(getRandomComputerChoice(questions[0].choices));
-//lastly pass the previous functions
 console.log(getResults(getRandomQuestion(questions), getRandomComputerChoice(questions[0].choices)));
