@@ -1,10 +1,14 @@
 //build a function to convert temperature from celcius to farenheit
 
-let tempNumb;
 
 function convertCtoF(tempNumb) {
-// let tempNumb;
-return console.log((tempNumb * (9/5)) + 32);
+let tempNumbConsole = (tempNumb * (9/5)) + 32;
+
+return tempNumbConsole;
 }
 
-convertCtoF(30);
+console.log(convertCtoF(-30));
+console.log(convertCtoF(-10));
+console.log(convertCtoF(0));
+console.log(convertCtoF(20));
+console.log(convertCtoF(30));
